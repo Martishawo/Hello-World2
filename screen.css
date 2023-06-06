@@ -1,7 +1,7 @@
 /* Add screen styles below */
 
 body {
-    background: #fff;
+background: #fff;
 font-family: Helvetica, sans-serif;
 border-top: 15px solid #424242;
 margin: 0%;
@@ -14,10 +14,12 @@ main{
 
 .masthead {
     background-image: url('images/Computer\ image.jpg');
+    height: 200px; 
     background-size: cover;
     background-position: bottom;
-    height: 250px; 
+    height: 250px;
     border-radius: 20px;
+
 }
 
 .details {
@@ -26,7 +28,7 @@ main{
 }
 
 .details section { 
-    flex-grow: 1;
+    flex-grow:  1;
     flex-basis: 0;
     background: #e8e8eb;
     padding: 25px;
@@ -36,6 +38,7 @@ main{
 
 img {
     width: 100%;
+    
   
 }
 
@@ -45,5 +48,5 @@ h2 {
 
 p {
      margin: 0;
-     line-height: 1.4px ;
+     line-height: 1.4em ;
 }
