@@ -13,12 +13,13 @@ main{
 }
 
 .masthead {
-    background-image: url('images/Computer image.jpg');
+    background-image: url('images/Computer\ image.jpg');
     background-size: cover;
-    background-position: botton;
-    height: 250px;
+    background-position: bottom;
+    height: 250px; 
     border-radius: 20px;
 }
+
 .details {
     display: flex;
     gap: 25px;
